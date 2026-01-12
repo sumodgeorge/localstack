@@ -2,3 +2,5 @@ pytest==6.2.5
 moto>=4.1.9
 boto3>=1.26.133
 mypy_boto3_s3>=1.26.127
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
